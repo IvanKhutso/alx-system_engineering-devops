@@ -1,0 +1,7 @@
+#!/bin/bash
+
+input_string=$1
+filtered_string=$(echo "$input_string" | tr -d 'cC')
+
+echo "$filtered_string"
+
